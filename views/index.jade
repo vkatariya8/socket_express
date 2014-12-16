@@ -17,15 +17,12 @@ html
     .row
       .col-md-8
         h2 Updates
-        |         
+        |        
         ul#messages
       |       
       .col-md-4
         h2 Data from Database
-        ul
-         each user in userlist
-          li= user.name
-
+        
     |     
     script(src='https://cdn.socket.io/socket.io-1.2.0.js')
     |     

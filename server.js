@@ -54,10 +54,10 @@ var i = 1;
 
 //Handle route "GET /", as in "http://localhost:8080/"
 app.get("/", function(request, response) {
-  var db = request.db;
-  var collection = db.get('users');
-  collection.find({},{}, function(e,docs){
-    response.render("index", {"userlist": docs});
+  //var db = request.db;
+  //var collection = db.get('users');
+  //collection.find({},{}, function(e,docs){
+    response.render("index");
   });  
 
 });
