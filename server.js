@@ -26,7 +26,7 @@ var db = monk('localhost:27017/socket_table');
 app.set("ipaddr", "127.0.0.1");
 
 //Server's port number 
-app.set("port", 8080);
+app.set("port", process.env.PORT || 8080);
 
 //Specify the views folder
 app.set("views", __dirname + "/views");
