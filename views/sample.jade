@@ -57,19 +57,30 @@ html
         return pwordArray[pword];
       }
       $('#btn1').click(function(){
-      var msg = '1-' + passwordMatch($('#no').val());
+      var val = passwordMatch($('#no').val());
+      var msg = '1-' + val;
       console.log(msg);
-      socket.emit('chat message', msg);
+      if(val){
+        socket.emit('chat message', msg);
+      }
       return false;
       });
       $('#btn2').click(function(){
-      var msg = '2-' + passwordMatch($('#no').val());
-      socket.emit('chat message', msg);
+      var val = passwordMatch($('#no').val());
+      var msg = '2-' + val;
+      console.log(msg);
+      if(val){
+        socket.emit('chat message', msg);
+      }
       return false;
       });
       $('#btn3').click(function(){
-      var msg = '3-' + passwordMatch($('#no').val());
-      socket.emit('chat message', msg);
+      var val = passwordMatch($('#no').val());
+      var msg = '3-' + val;
+      console.log(msg);
+      if(val){
+        socket.emit('chat message', msg);
+      }
       return false;
       });
       $(document).ready(function(){
