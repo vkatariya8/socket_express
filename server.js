@@ -23,7 +23,7 @@ var db = monk('localhost:27017/socket_table');
 /* Server config */
 
 //Server's IP address
-app.set("ipaddr", process.env.HOST || '127.0.0.1');
+//app.set("ipaddr", process.env.HOST || '127.0.0.1');
 
 //Server's port number 
 app.set("port", process.env.PORT || 3000);
@@ -97,7 +97,7 @@ app.post('/adduser', function(req, res){
 });
 
 //Start the http server at port and IP defined before
-http.listen(app.get("port"), app.get("ipaddr"), function() {
+http.listen(app.get("port"), function() {
   console.log("Server up and running. Go to http://" + app.get("ipaddr") + ":" + app.get("port"));
 });
 
