@@ -1,0 +1,44 @@
+doctype html
+html
+  head
+    title Main Panel
+    |     
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
+    |     
+    style.
+      div{
+      text-align: center;
+      }
+      ul{
+      list-style-type: none;
+      }
+  |   
+  body
+    .row
+      .col-md-8
+        h2 Updates
+        |         
+        ul#messages
+      |       
+      .col-md-4
+        h2 Data from Database
+        ul
+         each user in userlist
+          li= user.name
+
+    |     
+    script(src='https://cdn.socket.io/socket.io-1.2.0.js')
+    |     
+    script(src='https://code.jquery.com/jquery-1.11.1.js')
+    |     
+    script.
+      var socket = io();
+      var tableEntries = [];
+      socket.on('chat message', function(msg){
+      $('#messages').prepend($('<li>').text(msg));
+      var allData = msg.split('-');
+      var code = parseInt(allData[0]);
+      var id = parseInt(allData[1]);
+      //Now we want to insert into table
+      return false;
+      });

@@ -1,0 +1,83 @@
+doctype html
+html
+  head
+    title Auxillary Node
+    |     
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
+    |     
+    style.
+      .btn-circle {
+      height: 80px;
+      text-align: center;
+      padding: 6px 0;
+      font-size: 25px;
+      line-height: 1.42;
+      border-radius: 50px;
+      }
+      div{
+      padding:5%;
+      }
+  |   
+  body
+    button#modalBtn.btn.btn-primary(type='button', data-toggle='modal', data-target='.bs-example-modal-sm') Change ID
+    |    
+    |     
+    #myModal.modal.fade.bs-example-modal-sm(tabindex='-1', role='dialog', aria-labelledby='mySmallModalLabel', aria-hidden='true')
+      .modal-dialog.modal-sm
+        .modal-content
+          input#no.form-control(type='text')
+    |  
+    |     
+    #buttons
+      button#btn1.btn.btn-default.btn-lg.btn-primary.btn-circle.btn-block(type='button') 1
+      br
+      |       
+      button#btn2.btn.btn-default.btn-lg.btn-warning.btn-circle.btn-block(type='button') 2
+      br
+      |       
+      button#btn3.btn.btn-default.btn-lg.btn-success.btn-circle.btn-block(type='button') 3
+    |     
+    script(src='https://cdn.socket.io/socket.io-1.2.0.js')
+    |     
+    script(src='https://code.jquery.com/jquery-1.11.1.js')
+    |     
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js')
+    |     
+    script.
+      var socket = io();
+      var id;
+      var pwordArray = [];
+      pwordArray["p1"] = 1;
+      pwordArray["p2"] = 2;
+      pwordArray["p3"] = 3;
+      pwordArray["p4"] = 4;
+      pwordArray["p5"] = 5;
+      pwordArray["p6"] = 6;
+      function passwordMatch(pword){
+        return pwordArray[pword];
+      }
+      $('#btn1').click(function(){
+      var msg = '1-' + passwordMatch($('#no').val());
+      console.log(msg);
+      socket.emit('chat message', msg);
+      return false;
+      });
+      $('#btn2').click(function(){
+      var msg = '2-' + $('#no').val();
+      socket.emit('chat message', msg);
+      return false;
+      });
+      $('#btn3').click(function(){
+      var msg = '3-' + $('#no').val();
+      socket.emit('chat message', msg);
+      return false;
+      });
+      $(document).ready(function(){
+      $('.modal').modal('show');
+      });
+      $('#myModal').on('hidden.bs.modal', function(e){
+      var temp = $('#no').val();
+      console.log(temp);
+      $('#modalBtn').text('Current ID - ' + temp);
+      return false;
+      });

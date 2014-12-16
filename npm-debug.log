@@ -1,0 +1,376 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.13.0-pre
+4 warn package.json @ No description
+5 warn package.json @ No repository field.
+6 warn package.json @ No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/vishal/Coding/socket_exp',
+8 verbose install   [ 'express', 'jade', 'socket.io', 'underscore', 'body-parser' ] ]
+9 info preinstall @
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'express@4.6.1', null ]
+12 verbose cache add name=undefined spec="express@4.6.1" args=["express@4.6.1",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'express@4.6.1',
+13 verbose parsed url   path: 'express@4.6.1',
+13 verbose parsed url   href: 'express@4.6.1' }
+14 verbose cache add [ 'jade@1.4.2', null ]
+15 verbose cache add name=undefined spec="jade@1.4.2" args=["jade@1.4.2",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'jade@1.4.2',
+16 verbose parsed url   path: 'jade@1.4.2',
+16 verbose parsed url   href: 'jade@1.4.2' }
+17 verbose cache add [ 'socket.io@1.0.6', null ]
+18 verbose cache add name=undefined spec="socket.io@1.0.6" args=["socket.io@1.0.6",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'socket.io@1.0.6',
+19 verbose parsed url   path: 'socket.io@1.0.6',
+19 verbose parsed url   href: 'socket.io@1.0.6' }
+20 verbose cache add [ 'underscore@1.6.0', null ]
+21 verbose cache add name=undefined spec="underscore@1.6.0" args=["underscore@1.6.0",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'underscore@1.6.0',
+22 verbose parsed url   path: 'underscore@1.6.0',
+22 verbose parsed url   href: 'underscore@1.6.0' }
+23 verbose cache add [ 'body-parser@1.4.3', null ]
+24 verbose cache add name=undefined spec="body-parser@1.4.3" args=["body-parser@1.4.3",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'body-parser@1.4.3',
+25 verbose parsed url   path: 'body-parser@1.4.3',
+25 verbose parsed url   href: 'body-parser@1.4.3' }
+26 verbose cache add name="express" spec="4.6.1" args=["express","4.6.1"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '4.6.1',
+27 verbose parsed url   path: '4.6.1',
+27 verbose parsed url   href: '4.6.1' }
+28 verbose addNamed [ 'express', '4.6.1' ]
+29 verbose addNamed [ '4.6.1', '4.6.1' ]
+30 verbose cache add name="jade" spec="1.4.2" args=["jade","1.4.2"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '1.4.2',
+31 verbose parsed url   path: '1.4.2',
+31 verbose parsed url   href: '1.4.2' }
+32 verbose addNamed [ 'jade', '1.4.2' ]
+33 verbose addNamed [ '1.4.2', '1.4.2' ]
+34 verbose cache add name="socket.io" spec="1.0.6" args=["socket.io","1.0.6"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '1.0.6',
+35 verbose parsed url   path: '1.0.6',
+35 verbose parsed url   href: '1.0.6' }
+36 verbose addNamed [ 'socket.io', '1.0.6' ]
+37 verbose addNamed [ '1.0.6', '1.0.6' ]
+38 verbose cache add name="underscore" spec="1.6.0" args=["underscore","1.6.0"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '1.6.0',
+39 verbose parsed url   path: '1.6.0',
+39 verbose parsed url   href: '1.6.0' }
+40 verbose addNamed [ 'underscore', '1.6.0' ]
+41 verbose addNamed [ '1.6.0', '1.6.0' ]
+42 verbose cache add name="body-parser" spec="1.4.3" args=["body-parser","1.4.3"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '1.4.3',
+43 verbose parsed url   path: '1.4.3',
+43 verbose parsed url   href: '1.4.3' }
+44 verbose addNamed [ 'body-parser', '1.4.3' ]
+45 verbose addNamed [ '1.4.3', '1.4.3' ]
+46 silly lockFile 19c2b59f-express-4-6-1 express@4.6.1
+47 verbose lock express@4.6.1 /home/vishal/.npm/19c2b59f-express-4-6-1.lock
+48 silly lockFile 8819bd6d-jade-1-4-2 jade@1.4.2
+49 verbose lock jade@1.4.2 /home/vishal/.npm/8819bd6d-jade-1-4-2.lock
+50 silly lockFile aba41880-socket-io-1-0-6 socket.io@1.0.6
+51 verbose lock socket.io@1.0.6 /home/vishal/.npm/aba41880-socket-io-1-0-6.lock
+52 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+53 verbose lock underscore@1.6.0 /home/vishal/.npm/96960ed1-underscore-1-6-0.lock
+54 silly lockFile b6d1f7e9-body-parser-1-4-3 body-parser@1.4.3
+55 verbose lock body-parser@1.4.3 /home/vishal/.npm/b6d1f7e9-body-parser-1-4-3.lock
+56 verbose request where is /express
+57 verbose request registry https://registry.npmjs.org/
+58 verbose request id f4fdd43b12854c83
+59 verbose url raw /express
+60 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+61 verbose url resolved https://registry.npmjs.org/express
+62 verbose request where is https://registry.npmjs.org/express
+63 info trying registry request attempt 1 at 11:54:19
+64 verbose etag "CJTV2H86GV34FGPRGYN14DI0U"
+65 http GET https://registry.npmjs.org/express
+66 verbose request where is /body-parser
+67 verbose request registry https://registry.npmjs.org/
+68 verbose url raw /body-parser
+69 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+70 verbose url resolved https://registry.npmjs.org/body-parser
+71 verbose request where is https://registry.npmjs.org/body-parser
+72 info trying registry request attempt 1 at 11:54:20
+73 verbose etag "27RIPUEDZFKVJDTRG0UX4GE11"
+74 http GET https://registry.npmjs.org/body-parser
+75 verbose request where is /underscore
+76 verbose request registry https://registry.npmjs.org/
+77 verbose url raw /underscore
+78 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+79 verbose url resolved https://registry.npmjs.org/underscore
+80 verbose request where is https://registry.npmjs.org/underscore
+81 info trying registry request attempt 1 at 11:54:20
+82 http GET https://registry.npmjs.org/underscore
+83 verbose request where is /jade
+84 verbose request registry https://registry.npmjs.org/
+85 verbose url raw /jade
+86 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+87 verbose url resolved https://registry.npmjs.org/jade
+88 verbose request where is https://registry.npmjs.org/jade
+89 info trying registry request attempt 1 at 11:54:20
+90 verbose etag "2VLZBIKIE0ZCDWFLD2S2DKHO6"
+91 http GET https://registry.npmjs.org/jade
+92 verbose request where is /socket.io
+93 verbose request registry https://registry.npmjs.org/
+94 verbose url raw /socket.io
+95 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+96 verbose url resolved https://registry.npmjs.org/socket.io
+97 verbose request where is https://registry.npmjs.org/socket.io
+98 info trying registry request attempt 1 at 11:54:20
+99 verbose etag "9QCYL641QOUGZAJ7EHKGQS1DO"
+100 http GET https://registry.npmjs.org/socket.io
+101 http 304 https://registry.npmjs.org/body-parser
+102 silly registry.get cb [ 304,
+102 silly registry.get   { date: 'Tue, 16 Dec 2014 06:24:21 GMT',
+102 silly registry.get     server: 'Apache',
+102 silly registry.get     via: '1.1 varnish',
+102 silly registry.get     'last-modified': 'Tue, 16 Dec 2014 06:23:55 GMT',
+102 silly registry.get     'cache-control': 'max-age=60',
+102 silly registry.get     etag: '"27RIPUEDZFKVJDTRG0UX4GE11"',
+102 silly registry.get     age: '43',
+102 silly registry.get     'x-served-by': 'cache-sjc3126-SJC',
+102 silly registry.get     'x-cache': 'HIT',
+102 silly registry.get     'x-cache-hits': '2',
+102 silly registry.get     'x-timer': 'S1418711061.154342,VS0,VE0',
+102 silly registry.get     vary: 'Accept',
+102 silly registry.get     'content-length': '0',
+102 silly registry.get     connection: 'close' } ]
+103 verbose etag https://registry.npmjs.org/body-parser from cache
+104 http 304 https://registry.npmjs.org/jade
+105 silly registry.get cb [ 304,
+105 silly registry.get   { date: 'Tue, 16 Dec 2014 06:24:21 GMT',
+105 silly registry.get     server: 'Apache',
+105 silly registry.get     via: '1.1 varnish',
+105 silly registry.get     'last-modified': 'Tue, 16 Dec 2014 06:24:21 GMT',
+105 silly registry.get     'cache-control': 'max-age=60',
+105 silly registry.get     etag: '"2VLZBIKIE0ZCDWFLD2S2DKHO6"',
+105 silly registry.get     age: '21',
+105 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+105 silly registry.get     'x-cache': 'HIT',
+105 silly registry.get     'x-cache-hits': '1',
+105 silly registry.get     'x-timer': 'S1418711061.162338,VS0,VE0',
+105 silly registry.get     vary: 'Accept',
+105 silly registry.get     'content-length': '0',
+105 silly registry.get     connection: 'close' } ]
+106 verbose etag https://registry.npmjs.org/jade from cache
+107 silly lockFile abf6b127-ry-npmjs-org-jade-jade-1-4-2-tgz https://registry.npmjs.org/jade/-/jade-1.4.2.tgz
+108 verbose lock https://registry.npmjs.org/jade/-/jade-1.4.2.tgz /home/vishal/.npm/abf6b127-ry-npmjs-org-jade-jade-1-4-2-tgz.lock
+109 verbose addRemoteTarball [ 'https://registry.npmjs.org/jade/-/jade-1.4.2.tgz',
+109 verbose addRemoteTarball   '39f8ae013df19a317cf43063882ea737f9593c16' ]
+110 silly lockFile d5141bfa-ody-parser-body-parser-1-4-3-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.4.3.tgz
+111 verbose lock https://registry.npmjs.org/body-parser/-/body-parser-1.4.3.tgz /home/vishal/.npm/d5141bfa-ody-parser-body-parser-1-4-3-tgz.lock
+112 http 304 https://registry.npmjs.org/express
+113 silly registry.get cb [ 304,
+113 silly registry.get   { date: 'Tue, 16 Dec 2014 06:24:21 GMT',
+113 silly registry.get     server: 'Apache',
+113 silly registry.get     via: '1.1 varnish',
+113 silly registry.get     'last-modified': 'Tue, 16 Dec 2014 06:24:00 GMT',
+113 silly registry.get     'cache-control': 'max-age=60',
+113 silly registry.get     etag: '"CJTV2H86GV34FGPRGYN14DI0U"',
+113 silly registry.get     age: '47',
+113 silly registry.get     'x-served-by': 'cache-sjc3125-SJC',
+113 silly registry.get     'x-cache': 'HIT',
+113 silly registry.get     'x-cache-hits': '3',
+113 silly registry.get     'x-timer': 'S1418711061.220549,VS0,VE0',
+113 silly registry.get     vary: 'Accept',
+113 silly registry.get     'content-length': '0',
+113 silly registry.get     connection: 'close' } ]
+114 verbose etag https://registry.npmjs.org/express from cache
+115 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.4.3.tgz',
+115 verbose addRemoteTarball   '4727952cff4af0773eefa4b226c2f4122f5e234d' ]
+116 silly lockFile 3431007c-js-org-express-express-4-6-1-tgz https://registry.npmjs.org/express/-/express-4.6.1.tgz
+117 verbose lock https://registry.npmjs.org/express/-/express-4.6.1.tgz /home/vishal/.npm/3431007c-js-org-express-express-4-6-1-tgz.lock
+118 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.6.1.tgz',
+118 verbose addRemoteTarball   'c806e51755cb453ba17fac2f343caff6af885df4' ]
+119 info retry fetch attempt 1 at 11:54:21
+120 verbose fetch to= /tmp/npm-18259-BjaHJQmA/registry.npmjs.org/jade/-/jade-1.4.2.tgz
+121 info retry fetch attempt 1 at 11:54:21
+122 verbose fetch to= /tmp/npm-18259-BjaHJQmA/registry.npmjs.org/express/-/express-4.6.1.tgz
+123 info retry fetch attempt 1 at 11:54:21
+124 verbose fetch to= /tmp/npm-18259-BjaHJQmA/registry.npmjs.org/body-parser/-/body-parser-1.4.3.tgz
+125 http GET https://registry.npmjs.org/jade/-/jade-1.4.2.tgz
+126 http GET https://registry.npmjs.org/express/-/express-4.6.1.tgz
+127 http GET https://registry.npmjs.org/body-parser/-/body-parser-1.4.3.tgz
+128 http 304 https://registry.npmjs.org/socket.io
+129 silly registry.get cb [ 304,
+129 silly registry.get   { date: 'Tue, 16 Dec 2014 06:24:21 GMT',
+129 silly registry.get     server: 'Apache',
+129 silly registry.get     via: '1.1 varnish',
+129 silly registry.get     'last-modified': 'Tue, 16 Dec 2014 06:24:21 GMT',
+129 silly registry.get     'cache-control': 'max-age=60',
+129 silly registry.get     etag: '"9QCYL641QOUGZAJ7EHKGQS1DO"',
+129 silly registry.get     age: '25',
+129 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+129 silly registry.get     'x-cache': 'HIT',
+129 silly registry.get     'x-cache-hits': '1',
+129 silly registry.get     'x-timer': 'S1418711061.357463,VS0,VE0',
+129 silly registry.get     vary: 'Accept',
+129 silly registry.get     'content-length': '0',
+129 silly registry.get     connection: 'close' } ]
+130 verbose etag https://registry.npmjs.org/socket.io from cache
+131 silly lockFile 56454814-rg-socket-io-socket-io-1-0-6-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.0.6.tgz
+132 verbose lock https://registry.npmjs.org/socket.io/-/socket.io-1.0.6.tgz /home/vishal/.npm/56454814-rg-socket-io-socket-io-1-0-6-tgz.lock
+133 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-1.0.6.tgz',
+133 verbose addRemoteTarball   'b566532888dae3ac9058a12f294015ebdfa8084a' ]
+134 info retry fetch attempt 1 at 11:54:21
+135 verbose fetch to= /tmp/npm-18259-BjaHJQmA/registry.npmjs.org/socket.io/-/socket.io-1.0.6.tgz
+136 http GET https://registry.npmjs.org/socket.io/-/socket.io-1.0.6.tgz
+137 http 200 https://registry.npmjs.org/underscore
+138 silly registry.get cb [ 200,
+138 silly registry.get   { date: 'Tue, 16 Dec 2014 06:24:21 GMT',
+138 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+138 silly registry.get     etag: '"CSGSTGTIKSN6VHJ8BJ23BYAOQ"',
+138 silly registry.get     'content-type': 'application/json',
+138 silly registry.get     'cache-control': 'max-age=60',
+138 silly registry.get     'content-length': '33445',
+138 silly registry.get     'accept-ranges': 'bytes',
+138 silly registry.get     via: '1.1 varnish',
+138 silly registry.get     age: '7',
+138 silly registry.get     'x-served-by': 'cache-sjc3124-SJC',
+138 silly registry.get     'x-cache': 'HIT',
+138 silly registry.get     'x-cache-hits': '1',
+138 silly registry.get     'x-timer': 'S1418711061.155043,VS0,VE0',
+138 silly registry.get     vary: 'Accept',
+138 silly registry.get     connection: 'close' } ]
+139 silly lockFile a02bf4de--underscore-underscore-1-6-0-tgz https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+140 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz /home/vishal/.npm/a02bf4de--underscore-underscore-1-6-0-tgz.lock
+141 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz',
+141 verbose addRemoteTarball   '8b38b10cacdef63337b8b24e4ff86d45aea529a8' ]
+142 info retry fetch attempt 1 at 11:54:21
+143 verbose fetch to= /tmp/npm-18259-BjaHJQmA/registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+144 http GET https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+145 http 200 https://registry.npmjs.org/body-parser/-/body-parser-1.4.3.tgz
+146 http 200 https://registry.npmjs.org/socket.io/-/socket.io-1.0.6.tgz
+147 silly lockFile d5141bfa-ody-parser-body-parser-1-4-3-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.4.3.tgz
+148 silly lockFile d5141bfa-ody-parser-body-parser-1-4-3-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.4.3.tgz
+149 silly lockFile b6d1f7e9-body-parser-1-4-3 body-parser@1.4.3
+150 silly lockFile b6d1f7e9-body-parser-1-4-3 body-parser@1.4.3
+151 http 200 https://registry.npmjs.org/jade/-/jade-1.4.2.tgz
+152 http 200 https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+153 silly lockFile 56454814-rg-socket-io-socket-io-1-0-6-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.0.6.tgz
+154 silly lockFile 56454814-rg-socket-io-socket-io-1-0-6-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.0.6.tgz
+155 silly lockFile aba41880-socket-io-1-0-6 socket.io@1.0.6
+156 silly lockFile aba41880-socket-io-1-0-6 socket.io@1.0.6
+157 http 200 https://registry.npmjs.org/express/-/express-4.6.1.tgz
+158 silly lockFile a02bf4de--underscore-underscore-1-6-0-tgz https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+159 silly lockFile a02bf4de--underscore-underscore-1-6-0-tgz https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+160 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+161 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+162 silly lockFile 3431007c-js-org-express-express-4-6-1-tgz https://registry.npmjs.org/express/-/express-4.6.1.tgz
+163 silly lockFile 3431007c-js-org-express-express-4-6-1-tgz https://registry.npmjs.org/express/-/express-4.6.1.tgz
+164 silly lockFile 19c2b59f-express-4-6-1 express@4.6.1
+165 silly lockFile 19c2b59f-express-4-6-1 express@4.6.1
+166 silly lockFile abf6b127-ry-npmjs-org-jade-jade-1-4-2-tgz https://registry.npmjs.org/jade/-/jade-1.4.2.tgz
+167 silly lockFile abf6b127-ry-npmjs-org-jade-jade-1-4-2-tgz https://registry.npmjs.org/jade/-/jade-1.4.2.tgz
+168 silly lockFile 8819bd6d-jade-1-4-2 jade@1.4.2
+169 silly lockFile 8819bd6d-jade-1-4-2 jade@1.4.2
+170 error Error: EACCES, mkdir '/home/vishal/.npm/body-parser/1.4.3'
+170 error     at Error (native)
+170 error  { [Error: EACCES, mkdir '/home/vishal/.npm/body-parser/1.4.3']
+170 error   stack: 'Error: EACCES, mkdir \'/home/vishal/.npm/body-parser/1.4.3\'\n    at Error (native)',
+170 error   errno: -13,
+170 error   code: 'EACCES',
+170 error   path: '/home/vishal/.npm/body-parser/1.4.3' }
+171 error Please try running this command again as root/Administrator.
+172 error System Linux 3.2.0-70-generic
+173 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+174 error cwd /home/vishal/Coding/socket_exp
+175 error node -v v0.13.0-pre
+176 error npm -v 1.4.28
+177 error path /home/vishal/.npm/body-parser/1.4.3
+178 error code EACCES
+179 error errno -13
+180 error stack Error: EACCES, mkdir '/home/vishal/.npm/body-parser/1.4.3'
+180 error stack     at Error (native)
+181 verbose exit [ -13, true ]
