@@ -58,7 +58,7 @@ app.get("/", function(request, response) {
   //var collection = db.get('users');
   //collection.find({},{}, function(e,docs){
     response.render("index");
-  });  
+  //});  
 
 });
 
@@ -72,7 +72,7 @@ app.get("/insert", function(request, response){
 
 
 
-app.post('/adduser', function(req, res){
+/*app.post('/adduser', function(req, res){
   var db = req.db;
   var name = req.param('username');
   console.log(name);
@@ -94,7 +94,7 @@ app.post('/adduser', function(req, res){
     }
   });
 
-});
+});*/
 
 //Start the http server at port and IP defined before
 http.listen(app.get("port"), function() {
