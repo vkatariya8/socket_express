@@ -23,8 +23,7 @@ var db = monk('localhost:27017/socket_table');
 /* Server config */
 
 //Server's IP address
-127.0.0.1
-app.set("ipaddr", "process.env.YOUR_HOST || '127.0.0.1'");
+app.set("ipaddr", process.env.HOST || '127.0.0.1');
 
 //Server's port number 
 app.set("port", process.env.PORT || 3000);
