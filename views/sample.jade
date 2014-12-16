@@ -63,12 +63,12 @@ html
       return false;
       });
       $('#btn2').click(function(){
-      var msg = '2-' + $('#no').val();
+      var msg = '2-' + passwordMatch($('#no').val());
       socket.emit('chat message', msg);
       return false;
       });
       $('#btn3').click(function(){
-      var msg = '3-' + $('#no').val();
+      var msg = '3-' + passwordMatch($('#no').val());
       socket.emit('chat message', msg);
       return false;
       });
